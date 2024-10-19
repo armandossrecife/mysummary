@@ -17,4 +17,6 @@ O referido processo pussui 28 arquivos anexados
 
 Mais sobre a biblioteca Transformers em [link](https://huggingface.co/docs/transformers/en/index)
 
+[Summarization](https://huggingface.co/tasks/summarization)
+
 Uso do [summarization](https://huggingface.co/docs/transformers/en/tasks/summarization) para fazer o resumo de textos em inglês.
