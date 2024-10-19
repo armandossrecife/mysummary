@@ -19,4 +19,6 @@ Mais sobre a biblioteca Transformers em [link](https://huggingface.co/docs/trans
 
 [Summarization](https://huggingface.co/tasks/summarization)
 
+[Summarization Models](https://huggingface.co/models?pipeline_tag=summarization)
+
 Uso do [summarization](https://huggingface.co/docs/transformers/en/tasks/summarization) para fazer o resumo de textos em inglês.
