@@ -5,7 +5,11 @@ Leitura de documentos e resumo de documentos
 
 Processo público disponível em https://www.sipac.ufpi.br/public/jsp/processos/processo_detalhado.jsf?id=594067
 
-O referido processo pussui 28 arquivos anexados
+O referido processo pussui 27 arquivos (pdf ou html) relacionados ao processo. 
+
+Anexos em pdf ou despachos em html.
+
+Exemplo de [extração dos dados do processo](https://github.com/armandossrecife/mysummary/blob/main/extrair_informacoes_protocolo.ipynb)
 
 ## Possíveis Soluções
 
