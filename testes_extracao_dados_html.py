@@ -177,3 +177,40 @@ for row in table_dados_movimentacoes.find_all('tr'):
 for movimentacao in lista_movimentacoes:
   print(movimentacao)
   print('--')
+
+"""# Código Refatorado e Simplificado"""
+
+def extract_data_from_table(table, headers):
+    """Extrai dados de uma tabela HTML e retorna uma lista de dicionários."""
+    data = []
+    for row in table.find_all('tr'):
+        cells = row.find_all('td')
+        if cells:  # Verifica se a linha contém dados
+            row_data = dict(zip(headers, [cell.text.strip() for cell in cells]))
+            data.append(row_data)
+    return data
+
+# Exemplo de uso:
+table_dados = soup.find_all('table', class_='subListagem')
+table_dados_interessado = table_dados[0]
+table_dados_documentos = table_dados[1]
+table_dados_movimentacoes = table_dados[2]
+
+headers = ['Tipo', 'Identificador', 'Nome']
+interessado_data = extract_data_from_table(table_dados_interessado, headers)
+
+for pessoa in interessado_data:
+    print(pessoa)
+
+headers_documento = ['Tipo do Documento', 'Data do Documento', 'Origem', 'Natureza']
+documentos = extract_data_from_table(table_dados_documentos, headers_documento)
+
+for documento in documentos:
+    print(documento)
+
+headers_movimentacao =  ['Data Origem', 'Unidade Origem', 'Unidade Destino',	'Enviado Por',	'Recebido Em',	'Recebido Por']
+movimentacoes = extract_data_from_table(table_dados_movimentacoes, headers_movimentacao)
+
+for movimentacao in movimentacoes:
+    print(movimentacao)
+
