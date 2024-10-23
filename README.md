@@ -9,7 +9,9 @@ O referido processo pussui 27 arquivos (pdf ou html) relacionados ao processo.
 
 Anexos em pdf ou despachos em html.
 
-Exemplo de [extração dos dados do processo](https://github.com/armandossrecife/mysummary/blob/main/extrair_informacoes_protocolo.ipynb)
+Exemplo de [dados de um processo](https://github.com/armandossrecife/mysummary/blob/main/extrair_informacoes_protocolo.ipynb)
+
+Exemplo de [Extrator de Dados de Processos](https://github.com/armandossrecife/mysummary/blob/main/extrator_dados_processos.ipynb) 
 
 ## Possíveis Soluções
 
