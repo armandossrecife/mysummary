@@ -19,9 +19,9 @@ Exemplo de [Extrator de Dados de Processos](https://github.com/armandossrecife/m
 2. Abordagem mista (API do Google Gemini + Transformers): [S2](https://github.com/armandossrecife/mysummary/blob/main/quick_process_text_summary_using_transformers.ipynb)
 3. Usando apenas o Transformers (Open source): [S3](https://github.com/armandossrecife/mysummary/blob/main/text_summary_only_transformers.ipynb)
 
-## Conceitos, Métodos e Ferramentas
+## Conceitos, Métodos, Técnicas e Ferramentas
 
-[Transformers](https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)) By Hugging Face - a biblioteca Transformers é um acervo em Python que contém implementações de código aberto de modelos de transformadores para tarefas de texto, imagem e áudio. É compatível com as bibliotecas de aprendizagem profunda PyTorch e TensorFlow e inclui implementações de modelos notáveis como [BERT](https://en.wikipedia.org/wiki/BERT_(language_model)) e [GPT-2](https://en.wikipedia.org/wiki/GPT-2).
+[Transformers](https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)) By [Hugging Face](https://huggingface.co/) - a biblioteca Transformers é um acervo em Python que contém implementações de código aberto de modelos de transformadores para tarefas de texto, imagem e áudio. É compatível com as bibliotecas de aprendizagem profunda [PyTorch](https://en.wikipedia.org/wiki/PyTorch) e [TensorFlow](https://en.wikipedia.org/wiki/TensorFlow) e inclui implementações de modelos notáveis como [BERT](https://en.wikipedia.org/wiki/BERT_(language_model)) e [GPT-2](https://en.wikipedia.org/wiki/GPT-2).
 
 Mais sobre a biblioteca Transformers em [link](https://huggingface.co/docs/transformers/en/index)
 
